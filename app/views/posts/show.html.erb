@@ -1,0 +1,5 @@
+<h2><%= @post.titulo %></h2>
+
+<p>Creado hace <%= time_ago_in_words(@post.created_at)%></p>
+
+<p><%= @post.contenido %></p>
